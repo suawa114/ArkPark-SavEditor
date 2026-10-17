@@ -1,0 +1,514 @@
+{
+  "schema": 1,
+  "map_name": "方舟大世界2",
+  "fingerprints": {
+    "ArkPark2/Binaries/Win64/ArkPark2-Win64-Shipping.exe": "719f96873725763a3d4b5bc533f48e918b9d24ea2883aa9c1f83db031890f804",
+    "ArkPark2/Content/Paks/ArkPark2-Windows.utoc": "e77baa41b3f18db601bb2d22b26b273a96c8413a88161e171596f4b7250987dd",
+    "ArkPark2/Content/Paks/ArkPark2-Windows.pak": "acae5e6ca32bae23758773ca060f189485351e6a736c8dbfe1986bef31487072",
+    "ArkPark2/Content/Paks/global.utoc": "af3fab3484f647ddc05bfc98eed52519886813da7c1d86215a5ca51725d85cb3"
+  },
+  "catalog": {
+    "/Game/ArkPark/Blueprints/建造系统/基础/不规则/BP_实木斜面": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/功能/BP_4D打印机": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的4D打印机",
+      "row": "4D打印机",
+      "price": 5000,
+      "comfort": 250
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/功能/BP_发电机": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的发电机",
+      "row": "发电机",
+      "price": 1500,
+      "comfort": 75
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/地板/BP_实木地板": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/地板/BP_水面地板": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/地板/种田/BP_土壤": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/墙壁/BP_实木小窗户": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/墙壁/BP_实木支撑柱": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/基础/墙壁/BP_实木矮墙": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_冰箱1": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的冰箱1",
+      "row": "电冰箱",
+      "price": 1000,
+      "comfort": 50
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_冰箱3": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的冰箱3",
+      "row": "电冰箱",
+      "price": 1000,
+      "comfort": 50
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_唱片机": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的唱片机",
+      "row": "唱片机",
+      "price": 5000,
+      "comfort": 250
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_唱片机2": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的唱片机2",
+      "row": "唱片机",
+      "price": 5000,
+      "comfort": 250
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_垃圾桶3": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的垃圾桶3",
+      "row": "垃圾桶",
+      "price": 50,
+      "comfort": 2
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_帐篷4": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的帐篷4",
+      "row": "帐篷",
+      "price": 80,
+      "comfort": 4
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_床": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的床",
+      "row": "床",
+      "price": 150,
+      "comfort": 7
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_未知货币": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的未知货币",
+      "row": "未知货币",
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_椅子2": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的椅子",
+      "row": "座椅",
+      "price": 25,
+      "comfort": 1
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_汽油罐": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的汽油罐",
+      "row": "汽油罐",
+      "price": 25,
+      "comfort": 1
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_煤气灶": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的煤气灶",
+      "row": "燃气灶",
+      "price": 1150,
+      "comfort": 57
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_爱丽瑟嘲讽装置": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的爱丽瑟嘲讽装置",
+      "row": "玩具",
+      "price": 50,
+      "comfort": 2
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_盆栽4": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的盆栽4",
+      "row": "盆栽",
+      "price": 75,
+      "comfort": 3
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_空调": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的空调",
+      "row": "空调",
+      "price": 150,
+      "comfort": 7
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_雪人": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的雪人",
+      "row": "雪人",
+      "price": 250,
+      "comfort": 12
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_拉面龙大纸盒": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的大纸箱",
+      "row": "纸盒",
+      "price": 20,
+      "comfort": 1
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_拉面龙纸盒": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的纸箱",
+      "row": "纸盒",
+      "price": 20,
+      "comfort": 1
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_拉面龙默认储物木箱": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_拉面龙默认冰箱": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/发射器展示/BP_家具_洞洞板": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的洞洞板",
+      "row": "洞洞板",
+      "price": 25,
+      "comfort": 1
+    },
+    "/Game/ArkPark/Blueprints/建造系统/餐位/BP_风格吧台": {
+      "movable_class": "",
+      "row": null,
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/VFX_SciFi_Muzzle_And_Impact_Pack_1/Example_Content/DemoRoom/Blueprints/BP_家具帮厨_站点": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/店员站点/BP_可搬运的帮厨站点",
+      "row": "帮厨移动点",
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/VFX_SciFi_Muzzle_And_Impact_Pack_1/Example_Content/DemoRoom/Blueprints/BP_家具救生员_站点": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/店员站点/BP_可搬运的救生员站点",
+      "row": "救生员移动点",
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/VFX_SciFi_Muzzle_And_Impact_Pack_1/Example_Content/DemoRoom/Blueprints/BP_家具服务员_站点": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/店员站点/BP_可搬运的服务员站点",
+      "row": "服务员移动点",
+      "price": 0,
+      "comfort": 0
+    },
+    "/Game/ArkPark/Blueprints/建造系统/家具/BP_家具_桌子6": {
+      "movable_class": "/Game/ArkPark/Blueprints/其他/模拟物理/可搬运的物品/BP_可搬运的桌子6",
+      "row": "桌子",
+      "price": 100,
+      "comfort": 5
+    }
+  },
+  "map_actors": [
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_45",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_46",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_47",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_48",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_49",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_50",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_51",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_52",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_53",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_54",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_55",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_56",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_57",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_58",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_59",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_60",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_61",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_62",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_63",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_64",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_65",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_66",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_67",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_68",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_69",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_70",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_71",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_72",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_73",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_74",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_75",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_76",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_77",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_78",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_79",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_80",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_81",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_82",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_83",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_84",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_85",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "StaticMeshActor_86",
+      "class": "BP_家具_水泥墩_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "BP_家具_路障_C_1",
+      "class": "BP_家具_路障_C",
+      "comfort": 0
+    },
+    {
+      "map": "/Game/A_MAP/世界搬运家具",
+      "name": "BP_家具_路障_C_2",
+      "class": "BP_家具_路障_C",
+      "comfort": 0
+    },
+    {
+      "map": "/Game/A_MAP/PVE/PVZ_test",
+      "name": "StaticMeshActor_155",
+      "class": "BP_家具_交通牌_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/PVE/PVZ_test",
+      "name": "StaticMeshActor_343",
+      "class": "BP_家具_交通牌_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/PVE/PVZ_test",
+      "name": "StaticMeshActor_583",
+      "class": "BP_家具_交通牌_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/A_MAP/PVE/PVZ_test",
+      "name": "StaticMeshActor_64",
+      "class": "BP_家具_交通牌_C",
+      "comfort": 1
+    },
+    {
+      "map": "/Game/ArkPark/MAPs/拉面龙测试GAME",
+      "name": "BP_家具_载具召唤装置_C_0",
+      "class": "BP_家具_载具召唤装置_C",
+      "comfort": 250
+    }
+  ],
+  "runtime_verified_total": 2464,
+  "runtime_verified_home": 2168
+}

@@ -1,0 +1,4 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+psutil>=7,<8
+pyinstaller>=6.16,<7
